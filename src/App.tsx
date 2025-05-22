@@ -6,9 +6,9 @@ function App() {
   return (
     <>
       <div>
-        <h1>Test Commit</h1>
+        <h1 className='font-neue-Plak-Bold font-bold text-[105px]'>Test Text</h1>
       </div>
-      )
+
     </>
 
   )

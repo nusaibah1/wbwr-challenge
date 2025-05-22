@@ -1,1 +1,40 @@
-@import "tailwindcss";
+@import "tailwindcss"; 
+
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Neue-Plak-Bold';
+  src: url('/src/assets/Fonts/Neue-Plak-Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'Neue-Plak-Regular';
+  src: url('/src/assets/Fonts/Neue-Plak-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue-Plak-CondBlack';
+  src: url('/src/assets/Fonts/Neue-Plak-CondBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue-Plak-SemiBold';
+  src: url('/src/assets/Fonts/Neue-Plak-SemiBold.otf') format('opentype');
+  font-weight: 900;
+  font-display: swap;
+}
+
+@theme{
+  --font-neue-Plak-Bold:NeuePlak-Bold, "sans-serif";
+  --font-neue-Plak-Regular:Neue-Plak-Regular, "sans-serif";
+  --font-neue-Plak-CondBlack:Neue-Plak-CondBlack, "sans-serif";
+  --font-neue-Plak-SemiBold:Neue-Plak-SemiBold, "sans-serif";
+
+}

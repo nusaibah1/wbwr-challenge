@@ -1,7 +1,5 @@
 @import "tailwindcss"; 
 
-@tailwind utilities;
-
 @font-face {
   font-family: 'Neue-Plak-Bold';
   src: url('/src/assets/Fonts/Neue-Plak-Bold.ttf') format('truetype');

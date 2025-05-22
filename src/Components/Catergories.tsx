@@ -106,7 +106,7 @@ function Categories() {
 
   return (
     <Fragment>
-      <div className="text-left my-5 mb-[60px] md:mb-[40px]">
+      <div className="text-left my-5 mb-[60px] md:mb-[40px] py-5 md:py-[30px]">
         <h2 className="text-2xl  pl-20 font-neue-Plak-Bold">
           Our best gear
         </h2>

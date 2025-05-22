@@ -19,10 +19,10 @@ const Header = () => {
         
         {/* Overlay container */}
         <div className="relative z-10 w-full flex justify-end">
-          <div className="w-full md:w-1/3  pr-[10em] py-12 pl-8"> 
+          <div className="w-full md:w-1/3  pr-[10em] py-12 pl-2"> 
             <div className="max-w-[400px]"> 
               {/* Desktop Heading */}
-              <h1 className="text-[105px] font-neue-Plak-CondBlack text-black leading-tight">
+              <h1 className="text-[105px] p-3  font-neue-Plak-CondBlack text-black leading-tight">
                 <span className="block">CHECK</span>
                 <span className="block">OUT OUR</span>
                 <span className="block">LATEST</span>

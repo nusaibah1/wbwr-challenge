@@ -109,7 +109,7 @@ function Promotions() {
 
 return (
     <Fragment>
-      <div className="text-left my-5 px-6 lg:px-20">
+      <div className="text-left my-5 px-6 lg:px-20 py-5 md:py-[30px]">
         <h2 className="text-2xl font-bold font-neue-Plak-Bold">
           Discover Our Latest Promotions
         </h2>
